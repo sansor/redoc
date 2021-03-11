@@ -6,4 +6,4 @@ services:
     ports:
       - "8081:80"
     environment:
-      URLS: "[{url: 'https://petstore.swagger.io/v2/swagger.json', name: 'Petshop'},{url: 'https://api.apis.guru/v2/specs/instagram.com/1.0.0/swagger.yaml', name: 'Instagram'}]"
+      URLS: "[{url: 'https://api.jsonbin.io/b/60491429683e7e079c4b72ff', name: 'Lease Agreement'},{url: 'https://api.jsonbin.io/b/604915fc683e7e079c4b7537', name: 'LMS'},{url: 'https://api.jsonbin.io/b/6049165c00e5956cd88a1371', name: 'Credit Service'}]"
